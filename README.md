@@ -98,14 +98,13 @@ Area : <input type="text" name="surf_area" value="{{surf_area}}"></input>m<sup>2
 </html>
 ```
 ## SERVER SIDE PROCESSING:
-```
 ![Screenshot 2024-04-08 135220](https://github.com/Thirumalai23013035/MathServer/assets/153185249/36065609-59ce-4517-b973-e55fc8981a6d)
-```
+
 
 ## HOMEPAGE:
-```
+
 ![Screenshot 2024-04-08 135204](https://github.com/Thirumalai23013035/MathServer/assets/153185249/ef48a834-41aa-4d77-98eb-82aeeba2e305)
-```
+
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
