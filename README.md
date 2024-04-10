@@ -30,6 +30,7 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 ## PROGRAM :
+## MATH.html
 ```
 <html>
 <head>
@@ -97,6 +98,41 @@ Area : <input type="text" name="surf_area" value="{{surf_area}}"></input>m<sup>2
 </body>
 </html>
 ```
+## URLS.py 
+```
+from django.contrib import admin
+from django.urls import path
+from mathapp import views
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('surfaceareaofrightcylinder/',views.surf_area,name="surfaceareaofrightcylinder"),
+    path('',views.surf_area,name="surfaceareaofrightcylinderroot")
+]
+```
+
+## VIEWS.py
+```
+from django.shortcuts import render
+def surf_area(request):
+    context={}
+    context['surf_area'] = "0"
+    context['r'] = "0"
+    context['h'] = "0"
+    if request.method == 'POST':
+        print("POST method is used")
+        r = request.POST.get('radius','0')
+        h = request.POST.get('height','0')
+        print('request=',request)
+        print('Radius=',r)
+        print('Height=',h)
+        surf_area = (2*3.14*int(r)*int(h)) + (2*3.14*int(r)*int(r))
+        context['surf_area'] = surf_area
+        context['r'] = r
+        context['h'] = h
+        print('Surface Area=',surf_area)
+    return render(request,'mathapp/math.html',context)
+    ```
+
 ## SERVER SIDE PROCESSING:
 ![Screenshot 2024-04-08 135220](https://github.com/Thirumalai23013035/MathServer/assets/153185249/36065609-59ce-4517-b973-e55fc8981a6d)
 
