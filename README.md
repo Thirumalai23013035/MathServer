@@ -134,7 +134,8 @@ def surf_area(request):
     
 ```
 ## SERVER SIDE PROCESSING:
-![Screenshot 2024-04-08 135204](https://github.com/Thirumalai23013035/MathServer/assets/153185249/d48a95a6-4131-4a71-87b2-affa533bea8c)
+![Screenshot 2024-04-08 135220](https://github.com/Thirumalai23013035/MathServer/assets/153185249/a6b3e025-0749-49fe-af22-8e856a62fc1b)
+
 
 
 
