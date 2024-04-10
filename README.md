@@ -131,8 +131,8 @@ def surf_area(request):
         context['h'] = h
         print('Surface Area=',surf_area)
     return render(request,'mathapp/math.html',context)
-    ```
-
+    
+```
 ## SERVER SIDE PROCESSING:
 ![Screenshot 2024-04-08 135204](https://github.com/Thirumalai23013035/MathServer/assets/153185249/d48a95a6-4131-4a71-87b2-affa533bea8c)
 
