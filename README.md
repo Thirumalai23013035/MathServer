@@ -134,12 +134,14 @@ def surf_area(request):
     ```
 
 ## SERVER SIDE PROCESSING:
-![Screenshot 2024-04-08 135220](https://github.com/Thirumalai23013035/MathServer/assets/153185249/36065609-59ce-4517-b973-e55fc8981a6d)
+![Screenshot 2024-04-08 135204](https://github.com/Thirumalai23013035/MathServer/assets/153185249/d48a95a6-4131-4a71-87b2-affa533bea8c)
+
 
 
 ## HOMEPAGE:
 
-![Screenshot 2024-04-08 135204](https://github.com/Thirumalai23013035/MathServer/assets/153185249/ef48a834-41aa-4d77-98eb-82aeeba2e305)
+![Screenshot 2024-04-08 135204](https://github.com/Thirumalai23013035/MathServer/assets/153185249/a0235998-016e-4139-8101-b4e6b9e2aa46)
+
 
 
 ## RESULT:
